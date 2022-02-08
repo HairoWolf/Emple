@@ -6,7 +6,7 @@
  * @version: 1
  * 
  * @info: Parte de la ventana de un trabajo en grupo con Javier Tienda 
- * 	y Francisco Fernández
+ * 	y Francisco FernÃ¡ndez
  */
 package modelo;
 
@@ -17,6 +17,7 @@ public class moEmpleados {
 	private int numButton;
 	private int numPanel;
 	private int numCombo;
+	private HOLA;
 	private int numLabel;
 
 	private ArrayList<String> labelTexts = new ArrayList<>();
@@ -43,7 +44,7 @@ public class moEmpleados {
 	 */
 	public void fillButtonsTexts() {
 		buttonsTexts.add("Guardar");
-		buttonsTexts.add("Búsqueda");
+		buttonsTexts.add("BÃºsqueda");
 		buttonsTexts.add("Borrar");
 		buttonsTexts.add("Modificar");
 	}
