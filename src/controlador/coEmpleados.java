@@ -15,7 +15,14 @@ import vista.viEmpleados;
 public class coEmpleados {
 	private viEmpleados v = new viEmpleados();
 
-	
+	public coEmpleados() {
+		// llamamos a los metodos donde creamos cada elemento
+		v.createPanels();
+		v.createLabels();
+		v.createTextFields();
+		v.createButtons();
+		v.createCombo();
+
 		// llamamos a los metodos donde anadimos textos a los elementos
 		v.editCombo0();
 		v.editLabel();
