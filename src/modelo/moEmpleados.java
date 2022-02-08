@@ -17,7 +17,6 @@ public class moEmpleados {
 	private int numButton;
 	private int numPanel;
 	private int numCombo;
-	private HOLA;
 	private int numLabel;
 
 	private ArrayList<String> labelTexts = new ArrayList<>();
