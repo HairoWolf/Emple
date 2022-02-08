@@ -6,7 +6,7 @@
  * @version: 1
  * 
  * @info: Parte de la ventana de un trabajo en grupo con Javier Tienda 
- * 	y Francisco Fernández
+ * 	y Francisco Fernï¿½ndez
  */
 package controlador;
 
@@ -16,7 +16,6 @@ public class coEmpleados {
 	private viEmpleados v = new viEmpleados();
 
 	public coEmpleados() {
-
 		// llamamos a los metodos donde creamos cada elemento
 		v.createPanels();
 		v.createLabels();
